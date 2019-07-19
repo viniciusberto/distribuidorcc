@@ -1,0 +1,95 @@
+@charset "UTF-8";
+
+/*
+Theme Name: Distribuidor Coca Cola
+Theme URI: https://amplavia.com.br
+Author: Vinicius Berto
+Author URI: https://www.amplavia.com.br
+Description: Tema criado especificamente para o distribuidor Coca Cola Femsa
+Version: 1.4
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: distribuidorcc
+*/
+
+body {
+    font-family: "Roboto", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #51545E;
+}
+
+.navbar-brand {
+    max-width: 216px;
+}
+
+.barra-principal {
+    background-color: #FFFFFF;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 3px #999999;
+    z-index: 3;
+}
+
+.barra-principal .nav-item .active {
+    background-color: #E61D2B;
+    color: #FFFFFF !important;
+}
+
+.barra-principal #navbarNav a {
+    color: #E61D2B;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    min-height: calc(100vh - 279px);
+    margin-top: 79px;
+}
+
+main section {
+    margin-bottom: 30px;
+}
+
+.carousel-item {
+    height: calc(100vh - 80px);
+}
+
+footer {
+    background-color: #E61D2B;
+    height: 200px;
+}
+
+footer .endereco {
+    padding: 50px;
+    padding-left: 0;
+    padding-right: 0;
+    color: #FFFFFF;
+}
+
+.social {
+    text-align: center;
+    vertical-align: middle;
+    padding: 60px;
+}
+
+.social a {
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.direitos,
+.direitos a {
+    font-family: "Roboto", sans-serif;
+    text-align: right;
+    color: #FFFFFF;
+    background-color: #51545E;
+    font-size: 14px;
+    padding: 5px;
+}
